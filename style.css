@@ -24,3 +24,50 @@ body {
     height: 240px;
     padding: 16px 10px;
 }
+
+.computer::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 244px;
+    background-color: #3c4d77;
+    border-bottom: 1px solid #222c44;
+}
+
+.computer::after {
+    content: "";
+    position: absolute;
+    top: 202px;
+    left: 10px;
+    width: 162px;
+    height: 23px;
+}
+
+.display-wrapper {
+    border-radius: 6px;
+    margin-bottom: 12px;
+    padding: 4px;
+    background-image: linear-gradient(to bottom, #1a2133, #4d6398);
+}
+
+.display {
+    position: relative;
+    height: 134px;
+    overflow: auto;
+    padding: 8px 28px 16px;
+    word-wrap: break-word;
+    border-radius: 4px;
+    background-color: #2b3755;
+}
+
+.display::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 8px;
+    width: 8px;
+    height: 12px;
+}
