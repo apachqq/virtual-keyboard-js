@@ -82,3 +82,19 @@ body {
     justify-content: center;
     flex-shrink: 1;
 }
+
+.keyboard-line:nth-child(3) {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.button {
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font: inherit;
+    color: inherit;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, #4d6398, #334266);
+}
