@@ -71,3 +71,14 @@ body {
     width: 8px;
     height: 12px;
 }
+
+.keyboard {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.keyboard-line {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
