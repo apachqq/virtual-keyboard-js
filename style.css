@@ -117,6 +117,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .key {
     margin-right: 5px;
     margin-bottom: 5px;
@@ -139,7 +140,6 @@ body {
     width: 40px;
     height: 6px;
 }
-
 
 .button:focus {
     outline: 3px solid rgba(252, 230, 239, 0.3);
