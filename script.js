@@ -7,3 +7,7 @@ for (let key of keys) {
         display.textContent = display.textContent + key.textContent;
     }
 }
+
+clear.onclick = function () {
+    display.textContent = '';
+}
